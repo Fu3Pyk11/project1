@@ -34,7 +34,13 @@
     margin: 0 auto ;
     padding: 0 50px;
   }
-  
+  #logo__img{
+    width: 100px;
+    height: 80px;
+    border: none;
+    text-decoration: none;
+    object-fit: cover;
+  }
   .navbar__menu{
     display: flex;
     align-items: center;
@@ -302,4 +308,15 @@
     #mobile-menu.is-active .bar:nth-child(3){
         transform: translate(-8px) rotate(-45deg);
     }
+
+    .packages{
+      display: grid;
+      grid-template-columns: auto;
+    }
+}
+
+.container p{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
 }

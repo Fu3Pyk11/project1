@@ -22,6 +22,13 @@
   position: sticky;
   z-index: 999;
 }
+#logo__img{
+  width: 100px;
+  height: 80px;
+  border: none;
+  text-decoration: none;
+  object-fit: cover;
+}
 
 .navbar__container{
   display:flex;
@@ -294,4 +301,27 @@
     #mobile-menu.is-active .bar:nth-child(3){
         transform: translate(-8px) rotate(-45deg);
     }
+}
+
+@media screen and (max-width: 950px){
+  .flex__container_normal_order{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .flex__container_reverse_order{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
 }

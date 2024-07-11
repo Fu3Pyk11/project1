@@ -16,7 +16,7 @@ header{
 }
 
 .navbar{
-  background: #131313;
+  background: black;
   height: 80px;
   display:flex;
   justify-content: center;
@@ -55,12 +55,21 @@ header{
   padding: 0 10px;
 }
 #navbar__logo{
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   cursor: pointer;
   text-decoration: none;
 }
 
+#logo__img{
+  width: 100px;
+  height: 80px;
+  border: none;
+  text-decoration: none;
+  object-fit: cover;
+}
 
 
 .container {
@@ -144,15 +153,7 @@ span {
 
 
 
-#no_border{
-  border: none;
-}
 
-#logo {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-}
 
 @media screen and (max-width: 950px) {
   .navbar__container{
@@ -188,6 +189,7 @@ span {
 
 #navbar__logo{
     padding-left: 25px;
+    
 }
 .navbar__toggle .bar{
     width: 25px;
@@ -383,3 +385,4 @@ span {
     width: 100%;
   }
 }
+
